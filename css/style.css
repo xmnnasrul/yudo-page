@@ -10,7 +10,7 @@ section{
 }
 
 .hero {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -33,9 +33,19 @@ section{
     padding: 12px 24px;
     border-radius: 50px;
   }
-  .about {
+  .about , .project{
     height: 100vh;
     display: flex;
     justify-content: start;
     align-items: baseline;
+  }
+  .about .container, #project .container{
+    margin-top: 100px;
+  }
+  .about .container h2{
+    text-align: center;
+  }
+  .about .container p{
+    text-align: justify;
+    margin-top: 30px;
   }
