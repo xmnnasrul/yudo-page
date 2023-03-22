@@ -33,7 +33,10 @@ section{
     padding: 12px 24px;
     border-radius: 50px;
   }
-  .about , .project{
+  #about{
+    height: 100vh;
+  }
+  .about , .project , .contact{
     height: 100vh;
     display: flex;
     justify-content: start;
@@ -49,3 +52,11 @@ section{
     text-align: justify;
     margin-top: 30px;
   }
+  #contact{
+    background-color: rebeccapurple;
+    height: 100vh;
+  }
+  #contact .container{
+    margin-top: 100px;
+  }
+ 
