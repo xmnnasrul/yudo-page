@@ -1,10 +1,12 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
 nav div ul li{
     margin-right: 15px;
     margin-left: 15px;
 }
+
 section{
     height: 100vh;
 }
@@ -52,11 +54,54 @@ section{
     text-align: justify;
     margin-top: 30px;
   }
+  #project{
+    background-color: #F2F2F2;
+  }
   #contact{
-    background-color: rebeccapurple;
+    margin-top: 20px;
+    background-color: white;
     height: 100vh;
   }
   #contact .container{
     margin-top: 100px;
   }
- 
+ /* #contact ul{
+  list-style: none;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+ }
+ #contact ul li{
+  font-size: 80px;
+ } */
+ #contact i{
+  font-size: 70px ;
+  color: black;
+ }
+ #contact i:hover{
+  color: #808080;
+ }
+ #contact .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact .col-md-4 {
+  flex: 0 0 calc(33.3333% - 200px);
+  max-width: calc(33.3333% - 10px);
+}
+#contact .box {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #contact .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+footer p{
+  color: fff !important;
+}
