@@ -1,71 +1,78 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-nav div ul li{
-    margin-right: 15px;
-    margin-left: 15px;
+nav div ul li {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-section{
-    height: 100vh;
+section {
+  height: 100vh;
 }
 
 .hero {
-    height: 100vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-color: #f2f2f2;
-  }
-  
-  .hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 24px;
-  }
-  
-  .hero p {
-    font-size: 24px;
-    margin-bottom: 24px;
-  }
-  
-  .btn-primary {
-    font-size: 18px;
-    padding: 12px 24px;
-    border-radius: 50px;
-  }
-  #about{
-    height: 100vh;
-  }
-  .about , .project , .contact{
-    height: 100vh;
-    display: flex;
-    justify-content: start;
-    align-items: baseline;
-  }
-  .about .container, #project .container{
-    margin-top: 100px;
-  }
-  .about .container h2{
-    text-align: center;
-  }
-  .about .container p{
-    text-align: justify;
-    margin-top: 30px;
-  }
-  #project{
-    background-color: #F2F2F2;
-  }
-  #contact{
-    margin-top: 20px;
-    background-color: white;
-    height: 100vh;
-  }
-  #contact .container{
-    margin-top: 100px;
-  }
- /* #contact ul{
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 40px), repeating-linear-gradient(#43434355, #434343);
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 50px;
+}
+#about {
+  height: 100vh;
+}
+.about,
+.project,
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+.about .container,
+#project .container {
+  margin-top: 100px;
+}
+.about .container h2 {
+  text-align: center;
+}
+.about .container p {
+  text-align: justify;
+  margin-top: 30px;
+}
+#project {
+  background-color: #f2f2f2;
+}
+#contact {
+  margin-top: 20px;
+  background-color: white;
+  height: 100vh;
+}
+#contact .container {
+  margin-top: 100px;
+}
+/* #contact ul{
   list-style: none;
   gap: 10px;
   text-align: center;
@@ -74,14 +81,14 @@ section{
  #contact ul li{
   font-size: 80px;
  } */
- #contact i{
-  font-size: 70px ;
+#contact i {
+  font-size: 70px;
   color: black;
- }
- #contact i:hover{
+}
+#contact i:hover {
   color: #808080;
- }
- #contact .row {
+}
+#contact .row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -100,8 +107,12 @@ section{
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .hero {
+    background-image: none;
+    opacity: 1;
+  }
 }
 
-footer p{
+footer p {
   color: fff !important;
 }
